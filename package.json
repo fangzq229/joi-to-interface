@@ -1,0 +1,41 @@
+{
+  "name": "joi-to-interface",
+  "version": "1.2.1",
+  "description": "joi to interface",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "joi-to-interface": "dist/idx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangzq229/joi-to-interface"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "joi",
+    "interface",
+    "midway"
+  ],
+  "author": "fzq",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "joi-to-json": "^1.3.0",
+    "json-schema-to-typescript": "^10.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/fangzq229/joi-to-interface/issues"
+  },
+  "homepage": "https://github.com/fangzq229/joi-to-interface#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
